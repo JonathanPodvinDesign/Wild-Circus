@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Wild Circus</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <!DOCTYPE html>
+    <html lang="fr">
+      <!--  HEAD  -->
+      <head>
+        <meta charset="UTF-8" />
+        <title>Wild Circus</title>
+        <!--  FONTS  -->
+        <link
+          href="https://fonts.googleapis.com/css?family=Girassol&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400i&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <!-- BODY -->
+      <body>
+        <div class="main-container">
+          <!--  ANNOUCEMENT  -->
+          <div class="container annoucement-bar">
+            <p>
+              Tickets for our 20th anniversary - 9th April to 27th September -
+              <a href="#">are on sale.</a>
+            </p>
+          </div>
+
+          <!--  HEADER  -->
+          <div class="container">
+            <header>
+              <!--  BRAND  -->
+              <div class="header__brand">
+                <a href="#"
+                  ><img
+                    src="https://zupimages.net/up/20/11/vteu.png"
+                    alt="logo wild circus"
+                    class="header-brand__logo"
+                /></a>
+              </div>
+              <!--  BUTTON  -->
+              <div class="button">
+                <div class="button__line"></div>
+                <div class="button__line"></div>
+                <div class="button__line"></div>
+              </div>
+              <!--  NAV  -->
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#performances" class="nav-link">Performances</a>
+                  </li>
+                  <li><a href="#about" class="nav-link">About Us</a></li>
+                  <li><a href="#prices" class="nav-link">Prices</a></li>
+                  <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+              </nav>
+            </header>
+          </div>
+
+          <!--   PERFORMANCES SECTION   -->
+          <div class="container">
+            <section id="performances">
+              <h2>Performances</h2>
+              <ul>
+                <!--  LAUGH  -->
+                <li>
+                  <h3>Laugh</h3>
+                  <p>
+                    As an adult, come and discover our irresistible clowns,
+                    between practical jokes and pranks let yourself be carried
+                    away by their joy and fall back into childhood.
+                  </p>
+                </li>
+                <!--  DREAM  -->
+                <li>
+                  <h3>Dream</h3>
+                  <p>
+                    Let yourself be carried away in a world where the real and
+                    the imaginary are one, in the company of our talented
+                    magicians, discover a wonderful world limited only by your
+                    imagination.
+                  </p>
+                </li>
+                <!--  MARVEL AT  -->
+                <li>
+                  <h3>Marvel at</h3>
+                  <p>
+                    Tame the untameable in the company of our tamers, between
+                    roar and razor-sharp claws, watch these fierce felines turn
+                    into sweet kittens.
+                  </p>
+                </li>
+              </ul>
+            </section>
+          </div>
+
+          <!-- ABOUT US  -->
+          <section id="about">
+            <div class="image-container">
+              <img src="https://zupimages.net/up/20/11/1w84.png" alt="" />
+            </div>
+            <h2>About Us</h2>
+            <div class="about__text">
+              <p>
+                Wild Circus is a magical village red and yellow circus that
+                tours the world throughout the year.
+              </p>
+            </div>
+            <button>Check our dates</button>
+          </section>
+
+          <!-- PRICES  -->
+          <section id="prices">
+            <h2>Prices</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Period</th>
+                  <th>Adult</th>
+                  <th>Child (under 12)</th>
+                  <th>Group (more than 10)</th>
+                  <th>School</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Week (exept wednesday)</th>
+                  <td>20$</td>
+                  <td>8$</td>
+                  <td>150$</td>
+                  <td>80$</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <th>Week end and wednesday</th>
+                  <td>18$</td>
+                  <td>7$</td>
+                  <td>130$</td>
+                  <td>70$</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <th>Holidays</th>
+                  <td>16$</td>
+                  <td>5$</td>
+                  <td>120$</td>
+                  <td>/</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+          <!-- CONTACT  -->
+          <section id="contact">
+            <!--  TITLE  -->
+            <h2>Contact Us</h2>
+            <!--  EMAIL  -->
+            <div class="form">
+              <input
+                id="form--email"
+                type="email"
+                name="email"
+                autocomplete="off"
+                required
+              />
+              <label for="form--email" class="form__label-name">
+                <span class="form__label-name--content">Email</span>
+              </label>
+            </div>
+            <!--  TEAXTAREA  -->
+            <div class="form__message">
+              <label for="form--message" class="form__message-name"
+                >Votre message :</label
+              >
+              <textarea
+                id="form--message"
+                rows="10"
+                class="form__message-area"
+              ></textarea>
+              <button type="submit">Envoyer</button>
+            </div>
+          </section>
+
+          <!-- FOOTER  -->
+          <footer>
+            <div>
+              <a href="#"
+                ><img
+                  src="https://zupimages.net/up/20/11/8sdc.png"
+                  alt="Wild Circus - Logo"
+              /></a>
+            </div>
+          </footer>
+        </div>
+      </body>
+    </html>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
